@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.mainContainer{
+    width: 37%;
+    height: 93%;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #eff1f3;
+}
+.header{
+    height: 9%;
+    width: 100%;
+    font-family: Roboto Condensed;
+    letter-spacing: 0.75px;
+    color: #555555;
+    /* background-color: yellow; */
+}
+
+.subContainer{
+    width: 91%;
+    height: 88%;
+    border-radius: 5px;
+    background-color: white;
+}
+.innerContainer{
+    height: 92%;
+    width: 92%;
+    border: 0.3px solid #dddddd;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: teal; */
+}
+.loginSignUp{
+    width: 100%;
+    height: 10%;
+    /* background-color: black; */
+}
+.signIn{
+    width: 50%;
+    height: 100%;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Roboto Condensed;
+    border-top: 1px solid #0f9d58;
+    /* background-color: red; */
+}
+.signUp{
+    width: 50%;
+    height: 100%;
+    font-weight: 800;
+    color: #555555;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    background-color: #e9ebee;
+}
+form{
+    width: 90%;
+    height: 55%;
+    /* background-color: red; */
+    flex-direction: column;
+}
+input[type=text]{
+    width: 90%;
+    height: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#input1{
+    margin-bottom: 35px;
+}
+::placeholder{
+    padding-left: 15px;
+}
+
+button{
+    width: 90%;
+    height: 13%;
+    border: none;
+    font-family: Roboto Condensed;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #24b65e;
+}
+.remember{
+    width: 90%;
+    height: 7%;    
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    /* background-color: red; */
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.forget{
+    color: #777777;
+}
+.links{
+    width: 100%;
+    height: 28%;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.link1{
+    width: 80%;
+    height: 40%;
+    justify-content: space-between;
+}
+.google{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #d64b3e;
+    display: flex;
+    align-items: center;
+}
+i{
+    padding: 0 20px 0 10px;
+    margin-right: 15px;
+}
+.facebook{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #43609c;
+    display: flex;
+    align-items: center;
+}
+.link2{
+    width: 80%;
+    height: 40%;
+    justify-content: space-between;
+}
+.linkedin{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #04659b;
+    display: flex;
+    align-items: center;
+}
+.github{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #343131;
+    display: flex;
+    align-items: center;
+}
+.whyCreate{
+    color: #0f9d58;
+    font-weight: 400;
+    font-family: Roboto Condensed;
+}
+p{
+    margin-top: 8px;
+    font-size: 11px;
+    color: #999999;
+}
